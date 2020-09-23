@@ -13,7 +13,7 @@ Jianzhu Ma, Samson H. Fong, Christopher J. Bakkenist, John Paul Shen, Soufiane M
 The model can be downloaded here: https://idekerlab.ucsd.edu/projects/tcrp/tcrp_model.tar.gz
 
 # Model overview
-![Model overview](images/Figure1_github-01.png)
+<img src="images/Figure1_github-01.png" alt="Model overview" width="60%"/>
 
 # Directory Structure
 
