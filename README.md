@@ -8,6 +8,10 @@ TCRP (Transfer of Cellular Response Prediction) is a few-shot machine learning a
 
 Jianzhu Ma, Samson H. Fong, Christopher J. Bakkenist, John Paul Shen, Soufiane Mourragui, Lodewyk F. A. Wessels, Marc Hafner, Roded Sharan, Jian Peng, Trey Ideker.  *Learning predictive models of drug response that translate across biological contexts. Nature Cancer* (CITATION TBD).
 
+# Model Access
+
+The model can be downloaded here: https://idekerlab.ucsd.edu/projects/tcrp/tcrp_model.tar.gz
+
 # Model overview
 ![Model overview](images/Figure1_github-01.png)
 
