@@ -4,7 +4,7 @@ TCRP (Transfer of Cellular Response Prediction) is a few-shot machine learning a
 
 **This GitHub repository provides an implementation of TCRP as an easy-to-use Python program.**
 
-A refactored version of this code is being worked on [here](https://github.com/idekerlab/TCRP.git). This refactory will make the package installable and provide detailed examples. It is currently a work in progress.
+A refactored version of this code is being worked on [here](https://github.com/shfong/TCRP-refactored). This refactory will make the package installable and provide detailed examples. It is currently a work in progress.
 
 # Publication
 
