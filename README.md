@@ -50,3 +50,5 @@ Expression data, somatic mutations and drug responses for the analysis of Patien
 
 All relevant data for the Patient Derived Xenograft (PDX) models can be extracted from Supplementary Table 1 of the paper ‘High-throughput screening using patient-derived tumor xenografts to predict clinical trial drug response.’
 
+# Updates
+We made minor updates to this repository and included data preparation and model selection code in a [separate repository](https://github.com/shfong/tcrp-reproduce). 
