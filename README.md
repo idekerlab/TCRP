@@ -6,7 +6,7 @@ This GitHub repository provides an implementation of TCRP as an easy-to-use Pyth
 
 **A refactored version of this code is being worked on [here](https://github.com/shfong/tcrp-reproduce)**. This refactory will make the package installable and provide detailed examples. 
 
-# Frequently asked questions
+# Frequently Asked Questions
 
 [Click here for a list of FAQs](https://github.com/shfong/tcrp-reproduce/blob/public/tcrp-faq.md).
 
