@@ -2,13 +2,17 @@
 
 TCRP (Transfer of Cellular Response Prediction) is a few-shot machine learning algorithm to perform transfer learning for drug response predictions in cancer. It is used to train a neural network model using data in one experimental context (e.g. cell lines) that can be readily tuned to new contexts (e.g. patients) using few additional samples. In pilot experiments, the model has been shown to quickly adapt when switching among different tissue types and in moving from cell-line models to clinical contexts, including patient-derived tumor cells and patient-derived xenografts.
 
-**This GitHub repository provides an implementation of TCRP as an easy-to-use Python program.**
+This GitHub repository provides an implementation of TCRP as an easy-to-use Python program.
 
-A refactored version of this code is being worked on [here](https://github.com/shfong/TCRP-refactored). This refactory will make the package installable and provide detailed examples. It is currently a work in progress.
+**A refactored version of this code is being worked on [here](https://github.com/shfong/tcrp-reproduce)**. This refactory will make the package installable and provide detailed examples. 
+
+# Frequently asked questions
+
+We have also created an [FAQ](https://github.com/shfong/tcrp-reproduce/blob/public/tcrp-faq.md).
 
 # Publication
 
-Jianzhu Ma, Samson H. Fong, Christopher J. Bakkenist, John Paul Shen, Soufiane Mourragui, Lodewyk F. A. Wessels, Marc Hafner, Roded Sharan, Jian Peng, Trey Ideker.  *Learning predictive models of drug response that translate across biological contexts. Nature Cancer* (CITATION TBD).
+Jianzhu Ma, Samson H. Fong, Christopher J. Bakkenist, John Paul Shen, Soufiane Mourragui, Lodewyk F. A. Wessels, Marc Hafner, Roded Sharan, Jian Peng, Trey Ideker.  *Learning predictive models of drug response that translate across biological contexts. Nature Cancer*.
 
 # Model Access
 
@@ -49,6 +53,3 @@ The drug response data used in the paper for each cell line can be downloaded fr
 Expression data, somatic mutations and drug responses for the analysis of Patient-Derived Tumor Cells (PDTC) reported in the paper can be downloaded from the following URL: http://figshare.com/articles/Bruna_et_al_A_biobank_of_breast_cancer_explants_with_preserved_intra-tumor_heterogeneity_to_screen_anticancer_compounds_Cell_2016/2069274. 
 
 All relevant data for the Patient Derived Xenograft (PDX) models can be extracted from Supplementary Table 1 of the paper ‘High-throughput screening using patient-derived tumor xenografts to predict clinical trial drug response.’
-
-# Updates
-We made minor updates to this repository and included data preparation and model selection code in a [separate repository](https://github.com/shfong/tcrp-reproduce). 
