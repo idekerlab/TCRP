@@ -8,7 +8,7 @@ This GitHub repository provides an implementation of TCRP as an easy-to-use Pyth
 
 # Frequently asked questions
 
-We have also created an [FAQ](https://github.com/shfong/tcrp-reproduce/blob/public/tcrp-faq.md).
+[Click here for a list of FAQs](https://github.com/shfong/tcrp-reproduce/blob/public/tcrp-faq.md).
 
 # Publication
 
