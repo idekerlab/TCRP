@@ -4,7 +4,7 @@ TCRP (Transfer of Cellular Response Prediction) is a few-shot machine learning a
 
 This GitHub repository provides an implementation of TCRP as an easy-to-use Python program.
 
-**A refactored version of this code is being worked on [here](https://github.com/shfong/tcrp-reproduce)**. This refactory will make the package installable and provide detailed examples. 
+**A refactored version of this code is being worked on [here](https://github.com/shfong/tcrp-reproduce)**. This refactorization makes the package installable and provides detailed examples. 
 
 # Frequently Asked Questions
 
@@ -12,13 +12,13 @@ This GitHub repository provides an implementation of TCRP as an easy-to-use Pyth
 
 # Publication
 
-Jianzhu Ma, Samson H. Fong, Christopher J. Bakkenist, John Paul Shen, Soufiane Mourragui, Lodewyk F. A. Wessels, Marc Hafner, Roded Sharan, Jian Peng, Trey Ideker.  *Learning predictive models of drug response that translate across biological contexts. Nature Cancer*.
+Ma J, Fong SH, Luo Y., Bakkenist CJ, Shen JP, Mourragui S, Wessels LFA, Hafner M, Sharan R, Peng J, Ideker T.  Few-shot learning creates predictive models of drug response that translate from high-throughput screens to individual patients. Nat Cancer. 2021 Feb;2(2):233-244. doi: 10.1038/s43018-020-00169-2. Epub 2021 Jan 25. PMID: 34223192 [Pubmed](https://pubmed.ncbi.nlm.nih.gov/34223192/)
 
 # Model Access
 
 The model can be downloaded here: https://idekerlab.ucsd.edu/projects/tcrp/tcrp_model.tar.gz
 
-# Model overview
+# Model Overview
 <img src="images/Figure1_github-01.png" alt="Model overview" width="60%"/>
 
 # Directory Structure
@@ -45,7 +45,7 @@ Please also prepare a ‘task list’ file to store the detailed information of 
 
 The model trained for each epoch will be saved in the ‘--model_dic’ folder. Please modify the code in line 96 of tcrp_train.py if another location is desired for storing the models.
 
-## Data availability: 
+## Data Availability: 
 
 The gene expression and somatic mutation profiles used in the paper for each cell line are from the Cancer Cell Line Encyclopedia (CCLE) project. These data can be downloaded from the DepMap website: http://depmap.org/portal/download/. 
 The drug response data used in the paper for each cell line can be downloaded from the GDSC 1000 website: http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources/.
